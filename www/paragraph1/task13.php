@@ -38,7 +38,10 @@ function isSymmetric($number)
             $count++;
         }
         while (getCountBitNumber($number) > getCountBitNumber($number2))
-            $number = (int)($number / 10);
+            if ($number % 10 == 0)
+                $number = (int)($number / 10);
+            else
+                break;
         return $number == reverse($number2);
     }
     return false;
