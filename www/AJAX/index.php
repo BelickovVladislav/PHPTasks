@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 $array = array(
     array(
         "title" => "Новость #1",
@@ -145,6 +146,7 @@ ob_clean();
     <html>
     <head>
         <title>Новости</title>
+        <meta charset="utf-8">
         <style>
             * {
                 text-align: center;
