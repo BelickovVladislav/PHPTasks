@@ -139,100 +139,96 @@ Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire s
 
     )
 );
-$header = "
-<html>
-<head>
-    <title>Новости</title>
-    <style>
-        * {
-            text-align: center;
-        }
-
-        .block {
-            border-color: black;
-            border-radius: 0.5px;
-            border-width: 2px;
-            border-style: groove;
-
-            width: 800px;
-            margin: auto;
-            margin-bottom: 20px;
-        }
-
-        .button {
-            text-align: center;
-        }
-    </style>
-
-</head>
-
-<body>
-<div id = 'news'>
-";
-$max = 3;
-
+ob_start();
 ob_clean();
-if (isset($_GET["lastIndex"])) {
-    ob_start();
-    $max = $_GET["lastIndex"] + 3 < count($array) ? $_GET["lastIndex"] + 3 : count($array);
+?>
+    <html>
+    <head>
+        <title>Новости</title>
+        <style>
+            * {
+                text-align: center;
+            }
 
-    $myContent = "";
-    for ($i = $max - ($max - $_GET["lastIndex"]); $i < $max; $i++) {
+            .block {
+                border-color: black;
+                border-radius: 0.5px;
+                border-width: 2px;
+                border-style: groove;
 
-        $myContent .= " <div class='block' id='" . $i . "'>
-            <h1>" . $array[$i]["title"] . " </h1>
-            <br>
-            " . $array[$i]["description"] . "
-        </div>";
+                width: 800px;
+                margin: auto;
+                margin-bottom: 20px;
+            }
 
-    }
-    echo $myContent;
-    ob_end_flush();
-    ob_end_clean();
+            .button {
+                text-align: center;
+            }
+        </style>
 
-}
+    </head>
 
-$footer = "</div>
-<div class='button'>
-    <input type='button' value='Показать ещё' id='button'/>
-</div>
-<script>
-    var xhr = new XMLHttpRequest();
-    var button = document.getElementById('button');
-    button.addEventListener('click', function() {
-        var lastElementIndex = document.getElementsByClassName('block').length;
+    <body>
+    <div id='news'>
+        <?php
+        $header = ob_get_contents();
+        ob_clean();
+        $max = 3;
+        if (isset($_GET["lastIndex"])) {
+            $max = $_GET["lastIndex"] + 3 < count($array) ? $_GET["lastIndex"] + 3 : count($array);
+        }
+        for ($i = $max - ($max - $_GET["lastIndex"]); $i < $max; $i++) {
 
-        xhr.open('GET',location.origin+location.pathname+'?lastIndex='+lastElementIndex,true);
-       
-        xhr.onreadystatechange = function(){
-          if(this.readyState == 4) {
-            if(this.status == 200) {
-                if(this.responseText === ''){
-                    button.style.display = 'none';
-                }
-                var element = document.getElementById('news');
-                element.innerHTML += this.responseText;
+            ?>
+            <div class='block' id='<?= $i ?>'>
+                <h1><?= $array[$i]["title"] ?> </h1>
+                <br><?= $array[$i]["description"] ?>
+            </div>
+
+            <?php
+        }
+        $content = ob_get_contents();
+        ob_clean();
+        ?>
+    </div>
+    <div class='button'>
+        <input type='button' value='Показать ещё' id='button'/>
+    </div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        var button = document.getElementById('button');
+        button.addEventListener('click', function () {
+            var lastElementIndex = document.getElementsByClassName('block').length;
+
+            xhr.open('GET', location.origin + location.pathname + '?lastIndex=' + lastElementIndex, true);
+
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {
+                        if (this.responseText === '') {
+                            button.style.display = 'none';
+                        }
+                        var element = document.getElementById('news');
+                        element.innerHTML += this.responseText;
+                    }
                 }
             }
-        }
-         xhr.send(null);
-        
-    })
- 
-</script>
-</body>
-</html>";
-if (!isset($_GET["lastIndex"])) {
+            xhr.send(null);
 
-    $content = "";
-    for ($i = $max - 3; $i < $max; $i++) {
-        $content .= " <div class='block' id='" . $i . "'>
-            <h1>" . $array[$i]["title"] . " </h1>
-            <br>
-            " . $array[$i]["description"] . "
-        </div>";
-    }
+        })
+
+    </script>
+    </body>
+    </html>
+<?php
+$footer = ob_get_contents();
+ob_clean();
+if (!isset($_GET["lastIndex"])) {
     echo $header;
     echo $content;
     echo $footer;
-}
+} else
+    echo $content;
+ob_end_flush();
+
+?>
