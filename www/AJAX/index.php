@@ -231,12 +231,13 @@ ob_clean();
 <?php
 $footer = ob_get_contents();
 ob_clean();
-if (!(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')) {
+if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
     echo $header;
     echo $content;
     echo $footer;
 } elseif (isset($_GET['lastIndex']))
     echo $content;
+else die('ERROR');
 ob_end_flush();
 
 ?>
