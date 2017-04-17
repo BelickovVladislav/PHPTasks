@@ -1,7 +1,7 @@
 <?php
 $array = array(
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #1",
+        "title" => "Новость #1",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -14,7 +14,7 @@ Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire s
 
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #2",
+        "title" => "Новость #2",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -26,32 +26,7 @@ At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos
 Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #3",
-        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
-
-Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
-
-Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
-
-At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
-
-Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
-
-    ),
-    array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #4",
-        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
-
-Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
-
-Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
-
-At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
-
-Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
-    ),
-    array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #5",
+        "title" => "Новость #3",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -64,7 +39,7 @@ Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire s
 
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #6",
+        "title" => "Новость #4",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -76,32 +51,7 @@ At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos
 Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #7",
-        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
-
-Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
-
-Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
-
-At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
-
-Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
-
-    ),
-    array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #8",
-        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
-
-Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
-
-Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
-
-At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
-
-Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
-    ),
-    array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #9",
+        "title" => "Новость #5",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -114,7 +64,7 @@ Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire s
 
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #10",
+        "title" => "Новость #6",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -126,7 +76,57 @@ At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos
 Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
     ),
     array(
-        "title" => "РќРѕРІРѕСЃС‚СЊ #11",
+        "title" => "Новость #7",
+        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
+
+Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
+
+Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
+
+At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
+
+Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
+
+    ),
+    array(
+        "title" => "Новость #8",
+        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
+
+Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
+
+Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
+
+At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
+
+Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
+    ),
+    array(
+        "title" => "Новость #9",
+        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
+
+Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
+
+Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
+
+At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
+
+Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
+
+    ),
+    array(
+        "title" => "Новость #10",
+        "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
+
+Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
+
+Quidam eruditi recusabo pri at. Usu wisi laoreet postulant ad, an cum quaeque aliquam. Elitr torquatos dissentiet ne nam, nec dolor contentiones ne, vix duis omnes et. Ne eam simul nostrud, ex atqui summo minimum per. No docendi apeirian nec, ei agam summo lucilius sea.
+
+At eruditi lucilius sed. Vix id movet docendi mandamus, ancillae accusata no eos, labore deleniti convenire at sed. At postea conceptam nam, vel omnium noluisse volutpat et, et dicta incorrupte assueverit has. Usu ad praesent evertitur assentior, agam nostro ex quo, eu eius offendit est. Mei te eruditi maiestatis.
+
+Te virtute liberavisse his, ei eros ludus corrumpit has. Et oporteat convenire similique sit, scaevola sententiae in pri, ius an soleat periculis. Est in verterem interpretaris. Prima inermis per eu, ex possit mentitum consectetuer mei. Et ceteros nostrum dissentias vix, sed homero definitionem ei."
+    ),
+    array(
+        "title" => "Новость #11",
         "description" => "Lorem ipsum dolor sit amet, ullum vivendo euripidis ius an. Eum odio nonumy scripta ei, no sed zril munere labore. Usu adhuc veniam albucius no, usu integre delicatissimi ad. An eam duis lorem.
 
 Facete vocent efficiendi ius ut, eu graecis iudicabit instructior pro. Ut his invidunt perpetua principes. Ex suas persecuti mnesarchum eos. Altera scriptorem has at. At dicunt quaestio senserit ius, usu quot prompta evertitur ne.
@@ -144,7 +144,7 @@ ob_clean();
 ?>
     <html>
     <head>
-        <title>РќРѕРІРѕСЃС‚Рё</title>
+        <title>Новости</title>
         <style>
             * {
                 text-align: center;
@@ -174,9 +174,15 @@ ob_clean();
         $header = ob_get_contents();
         ob_clean();
         $max = 3;
-        if (isset($_GET["lastIndex"])) {
-            $max = $_GET["lastIndex"] + 3 < count($array) ? $_GET["lastIndex"] + 3 : count($array);
+        if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) &&
+            strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest'
+        ) {
+
+            if (isset($_GET["lastIndex"])) {
+                $max = $_GET["lastIndex"] + 3 < count($array) ? $_GET["lastIndex"] + 3 : count($array);
+            }
         }
+
         for ($i = $max - ($max - $_GET["lastIndex"]); $i < $max; $i++) {
 
             ?>
@@ -192,7 +198,7 @@ ob_clean();
         ?>
     </div>
     <div class='button'>
-        <input type='button' value='РџРѕРєР°Р·Р°С‚СЊ РµС‰С‘' id='button'/>
+        <input type='button' value='Показать ещё' id='button'/>
     </div>
     <script>
         var xhr = new XMLHttpRequest();
@@ -201,7 +207,7 @@ ob_clean();
             var lastElementIndex = document.getElementsByClassName('block').length;
 
             xhr.open('GET', location.origin + location.pathname + '?lastIndex=' + lastElementIndex, true);
-
+            xhr.setRequestHeader('X-Requested-With', 'xmlhttprequest');
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4) {
                     if (this.status == 200) {
@@ -223,11 +229,11 @@ ob_clean();
 <?php
 $footer = ob_get_contents();
 ob_clean();
-if (!isset($_GET["lastIndex"])) {
+if (!(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')) {
     echo $header;
     echo $content;
     echo $footer;
-} else
+} elseif (isset($_GET['lastIndex']))
     echo $content;
 ob_end_flush();
 
