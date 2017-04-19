@@ -26,7 +26,7 @@ function isIncration($number)
 
 }
 
-function sortNumber($number, $other)
+function sortNumber($number, $other = -1)
 {
     if ($other == -1)
         $other = 0;
@@ -57,4 +57,4 @@ function sortNumber($number, $other)
     return sortNumber($temp, $other);
 }
 
-echo sortNumber(1423251, -1);
+echo sortNumber(1423251);
