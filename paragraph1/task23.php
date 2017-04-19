@@ -2,30 +2,6 @@
 /*
  * Дано  целое  число  N.  Преобразовать  число  так, чтобы его цифры следовали в порядке возрастания.
  */
-function getCountNumber($number)
-{
-    $count = 0;
-    while ($number != 0) {
-        $count++;
-        $number = (int)($number / 10);
-    }
-    return $count;
-}
-
-function isIncration($number)
-{
-    $prev = 10;
-    while ($number != 0) {
-        if ($prev <= $number % 10) {
-            return false;
-        }
-        $prev = $number % 10;
-        $number = (int)($number / 10);
-    }
-    return true;
-
-}
-
 function sortNumber($number, $other = -1)
 {
     if ($other == -1)
