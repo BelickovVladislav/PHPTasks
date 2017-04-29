@@ -1,6 +1,6 @@
 <?php
 /*
- * Вычислить  значение  многочлена  и  его  первой  производной  в  заданной точке x (коэффициенты хранятся в массивах).
+ * Вычислить значение многочлена и всех его производных в заданной точке x (коэффициенты хранятся в массивах ).
  */
 function powNumber($number, $p)
 {
@@ -31,7 +31,18 @@ function getDerivativePolynomial(array $array, $x)
     return $result;
 }
 
+function showAllDerivativePolynomial(array $array, $x)
+{
+    if (empty($array))
+        return;
+    echo getDerivativePolynomial($array, $x).'<br>';
+    $arr = array();
+    for ($i = 0; $i < count($array) - 1; $i++) {
+        $arr[$i] = (int)($array[$i] * powNumber($x, count($array) - 1 - $i));
+    }
+    showAllDerivativePolynomial($arr, $x);
+}
+
 $array = array(5, 4, 2);
 $x = 2;
-echo getValuePolynomial($array, $x) . "<br>";
-echo getDerivativePolynomial($array, $x);
+showAllDerivativePolynomial($array, $x);
